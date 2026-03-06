@@ -1,4 +1,4 @@
-LBM <- function(WI, SI, 
+LATEBLIGHT <- function(WI, SI, 
   InocDate, LGR, IniSpor, SR, IE, LP, InMicCol,
   MatTime=c('EARLYSEASON','MIDSEASON','LATESEASON'),
   ...) {
@@ -317,4 +317,5 @@ LBM <- function(WI, SI,
            title=MatTime,lty=1,pch=c(3,19),col=c("black","blue"),cex=1)
     # End graphing disease progress curves
     return( list(Ofile = Ofile, Gfile=Gfile ))
+
   }
